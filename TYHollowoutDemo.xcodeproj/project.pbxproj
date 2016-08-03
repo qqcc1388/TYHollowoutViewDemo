@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87A907041D518A7E00497AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A907031D518A7E00497AFF /* main.m */; };
+		87A907071D518A7E00497AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A907061D518A7E00497AFF /* AppDelegate.m */; };
+		87A9070A1D518A7E00497AFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A907091D518A7E00497AFF /* ViewController.m */; };
+		87A9070D1D518A7E00497AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A9070B1D518A7E00497AFF /* Main.storyboard */; };
+		87A9070F1D518A7E00497AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A9070E1D518A7E00497AFF /* Assets.xcassets */; };
+		87A907121D518A7E00497AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A907101D518A7E00497AFF /* LaunchScreen.storyboard */; };
+		87A9071D1D518A7E00497AFF /* TYHollowoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9071C1D518A7E00497AFF /* TYHollowoutDemoTests.m */; };
+		87A907281D518A7E00497AFF /* TYHollowoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A907271D518A7E00497AFF /* TYHollowoutDemoUITests.m */; };
+		87A907371D518A9600497AFF /* TYHollowoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A907361D518A9600497AFF /* TYHollowoutView.m */; };
+		87A907391D518CFF00497AFF /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87A907381D518CFF00497AFF /* bg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87A907191D518A7E00497AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A906F71D518A7D00497AFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A906FE1D518A7D00497AFF;
+			remoteInfo = TYHollowoutDemo;
+		};
+		87A907241D518A7E00497AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A906F71D518A7D00497AFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A906FE1D518A7D00497AFF;
+			remoteInfo = TYHollowoutDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87A906FF1D518A7E00497AFF /* TYHollowoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYHollowoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A907031D518A7E00497AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87A907051D518A7E00497AFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87A907061D518A7E00497AFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87A907081D518A7E00497AFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87A907091D518A7E00497AFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87A9070C1D518A7E00497AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87A9070E1D518A7E00497AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87A907111D518A7E00497AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87A907131D518A7E00497AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A907181D518A7E00497AFF /* TYHollowoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYHollowoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A9071C1D518A7E00497AFF /* TYHollowoutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHollowoutDemoTests.m; sourceTree = "<group>"; };
+		87A9071E1D518A7E00497AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A907231D518A7E00497AFF /* TYHollowoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYHollowoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A907271D518A7E00497AFF /* TYHollowoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHollowoutDemoUITests.m; sourceTree = "<group>"; };
+		87A907291D518A7E00497AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A907351D518A9600497AFF /* TYHollowoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHollowoutView.h; sourceTree = "<group>"; };
+		87A907361D518A9600497AFF /* TYHollowoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHollowoutView.m; sourceTree = "<group>"; };
+		87A907381D518CFF00497AFF /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87A906FC1D518A7D00497AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A907151D518A7E00497AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A907201D518A7E00497AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87A906F61D518A7D00497AFF = {
+			isa = PBXGroup;
+			children = (
+				87A907011D518A7E00497AFF /* TYHollowoutDemo */,
+				87A9071B1D518A7E00497AFF /* TYHollowoutDemoTests */,
+				87A907261D518A7E00497AFF /* TYHollowoutDemoUITests */,
+				87A907001D518A7E00497AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87A907001D518A7E00497AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A906FF1D518A7E00497AFF /* TYHollowoutDemo.app */,
+				87A907181D518A7E00497AFF /* TYHollowoutDemoTests.xctest */,
+				87A907231D518A7E00497AFF /* TYHollowoutDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A907011D518A7E00497AFF /* TYHollowoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				87A907051D518A7E00497AFF /* AppDelegate.h */,
+				87A907061D518A7E00497AFF /* AppDelegate.m */,
+				87A907081D518A7E00497AFF /* ViewController.h */,
+				87A907091D518A7E00497AFF /* ViewController.m */,
+				87A907351D518A9600497AFF /* TYHollowoutView.h */,
+				87A907361D518A9600497AFF /* TYHollowoutView.m */,
+				87A907381D518CFF00497AFF /* bg.jpg */,
+				87A9070B1D518A7E00497AFF /* Main.storyboard */,
+				87A9070E1D518A7E00497AFF /* Assets.xcassets */,
+				87A907101D518A7E00497AFF /* LaunchScreen.storyboard */,
+				87A907131D518A7E00497AFF /* Info.plist */,
+				87A907021D518A7E00497AFF /* Supporting Files */,
+			);
+			path = TYHollowoutDemo;
+			sourceTree = "<group>";
+		};
+		87A907021D518A7E00497AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A907031D518A7E00497AFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87A9071B1D518A7E00497AFF /* TYHollowoutDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				87A9071C1D518A7E00497AFF /* TYHollowoutDemoTests.m */,
+				87A9071E1D518A7E00497AFF /* Info.plist */,
+			);
+			path = TYHollowoutDemoTests;
+			sourceTree = "<group>";
+		};
+		87A907261D518A7E00497AFF /* TYHollowoutDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87A907271D518A7E00497AFF /* TYHollowoutDemoUITests.m */,
+				87A907291D518A7E00497AFF /* Info.plist */,
+			);
+			path = TYHollowoutDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87A906FE1D518A7D00497AFF /* TYHollowoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A9072C1D518A7E00497AFF /* Build configuration list for PBXNativeTarget "TYHollowoutDemo" */;
+			buildPhases = (
+				87A906FB1D518A7D00497AFF /* Sources */,
+				87A906FC1D518A7D00497AFF /* Frameworks */,
+				87A906FD1D518A7D00497AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYHollowoutDemo;
+			productName = TYHollowoutDemo;
+			productReference = 87A906FF1D518A7E00497AFF /* TYHollowoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87A907171D518A7E00497AFF /* TYHollowoutDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A9072F1D518A7E00497AFF /* Build configuration list for PBXNativeTarget "TYHollowoutDemoTests" */;
+			buildPhases = (
+				87A907141D518A7E00497AFF /* Sources */,
+				87A907151D518A7E00497AFF /* Frameworks */,
+				87A907161D518A7E00497AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87A9071A1D518A7E00497AFF /* PBXTargetDependency */,
+			);
+			name = TYHollowoutDemoTests;
+			productName = TYHollowoutDemoTests;
+			productReference = 87A907181D518A7E00497AFF /* TYHollowoutDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87A907221D518A7E00497AFF /* TYHollowoutDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A907321D518A7E00497AFF /* Build configuration list for PBXNativeTarget "TYHollowoutDemoUITests" */;
+			buildPhases = (
+				87A9071F1D518A7E00497AFF /* Sources */,
+				87A907201D518A7E00497AFF /* Frameworks */,
+				87A907211D518A7E00497AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87A907251D518A7E00497AFF /* PBXTargetDependency */,
+			);
+			name = TYHollowoutDemoUITests;
+			productName = TYHollowoutDemoUITests;
+			productReference = 87A907231D518A7E00497AFF /* TYHollowoutDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87A906F71D518A7D00497AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tiny;
+				TargetAttributes = {
+					87A906FE1D518A7D00497AFF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					87A907171D518A7E00497AFF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 87A906FE1D518A7D00497AFF;
+					};
+					87A907221D518A7E00497AFF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 87A906FE1D518A7D00497AFF;
+					};
+				};
+			};
+			buildConfigurationList = 87A906FA1D518A7D00497AFF /* Build configuration list for PBXProject "TYHollowoutDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87A906F61D518A7D00497AFF;
+			productRefGroup = 87A907001D518A7E00497AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87A906FE1D518A7D00497AFF /* TYHollowoutDemo */,
+				87A907171D518A7E00497AFF /* TYHollowoutDemoTests */,
+				87A907221D518A7E00497AFF /* TYHollowoutDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87A906FD1D518A7D00497AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A907121D518A7E00497AFF /* LaunchScreen.storyboard in Resources */,
+				87A907391D518CFF00497AFF /* bg.jpg in Resources */,
+				87A9070F1D518A7E00497AFF /* Assets.xcassets in Resources */,
+				87A9070D1D518A7E00497AFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A907161D518A7E00497AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A907211D518A7E00497AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A906FB1D518A7D00497AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A9070A1D518A7E00497AFF /* ViewController.m in Sources */,
+				87A907371D518A9600497AFF /* TYHollowoutView.m in Sources */,
+				87A907071D518A7E00497AFF /* AppDelegate.m in Sources */,
+				87A907041D518A7E00497AFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A907141D518A7E00497AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A9071D1D518A7E00497AFF /* TYHollowoutDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A9071F1D518A7E00497AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A907281D518A7E00497AFF /* TYHollowoutDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87A9071A1D518A7E00497AFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87A906FE1D518A7D00497AFF /* TYHollowoutDemo */;
+			targetProxy = 87A907191D518A7E00497AFF /* PBXContainerItemProxy */;
+		};
+		87A907251D518A7E00497AFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87A906FE1D518A7D00497AFF /* TYHollowoutDemo */;
+			targetProxy = 87A907241D518A7E00497AFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87A9070B1D518A7E00497AFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A9070C1D518A7E00497AFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87A907101D518A7E00497AFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A907111D518A7E00497AFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87A9072A1D518A7E00497AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87A9072B1D518A7E00497AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87A9072D1D518A7E00497AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYHollowoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.TYHollowoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87A9072E1D518A7E00497AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYHollowoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.TYHollowoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87A907301D518A7E00497AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYHollowoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.TYHollowoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYHollowoutDemo.app/TYHollowoutDemo";
+			};
+			name = Debug;
+		};
+		87A907311D518A7E00497AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYHollowoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.TYHollowoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYHollowoutDemo.app/TYHollowoutDemo";
+			};
+			name = Release;
+		};
+		87A907331D518A7E00497AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYHollowoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.TYHollowoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYHollowoutDemo;
+			};
+			name = Debug;
+		};
+		87A907341D518A7E00497AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYHollowoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.TYHollowoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYHollowoutDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87A906FA1D518A7D00497AFF /* Build configuration list for PBXProject "TYHollowoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A9072A1D518A7E00497AFF /* Debug */,
+				87A9072B1D518A7E00497AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A9072C1D518A7E00497AFF /* Build configuration list for PBXNativeTarget "TYHollowoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A9072D1D518A7E00497AFF /* Debug */,
+				87A9072E1D518A7E00497AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87A9072F1D518A7E00497AFF /* Build configuration list for PBXNativeTarget "TYHollowoutDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A907301D518A7E00497AFF /* Debug */,
+				87A907311D518A7E00497AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87A907321D518A7E00497AFF /* Build configuration list for PBXNativeTarget "TYHollowoutDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A907331D518A7E00497AFF /* Debug */,
+				87A907341D518A7E00497AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87A906F71D518A7D00497AFF /* Project object */;
+}
